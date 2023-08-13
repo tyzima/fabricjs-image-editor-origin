@@ -7,6 +7,15 @@ body {
   display: none;
 }
 
+#bring-fwd {
+  display: none;
+}
+
+.select-panel .text-section .style {
+  display: none;
+}
+
+
 #flip-v {
   display: none;
 }

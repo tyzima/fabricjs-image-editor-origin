@@ -19,6 +19,14 @@ body {
   display: none;
 }
 
+#background {
+  display: none;
+}
+
+.floating-zoom-level-container {
+    display: none;
+}
+
 .grp-handler-cp-c {
   margin-left: -20px;
 }
@@ -31,7 +39,7 @@ body {
 
 .toolbar {
   line-height: 0;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   box-shadow: 0 0 3px 0 rgba(50, 50, 50, .25);
   display: flex;
   justify-content: space-between;
@@ -44,7 +52,7 @@ body {
   opacity: .55;
   clear: both;
   border: 0;
-  border-radius: unset;
+  border-radius: 8px;
   outline: none;
 }
 

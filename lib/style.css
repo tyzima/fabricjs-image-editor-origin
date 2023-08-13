@@ -19,6 +19,9 @@ body {
   display: none;
 }
 
+#draw {
+  display: none;
+}
 #background {
   display: none;
 }

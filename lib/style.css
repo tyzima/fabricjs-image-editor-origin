@@ -65,8 +65,8 @@ body {
 .toolbar button.active,
 .toolbar button:hover {
   opacity: 1;
-  border-left: 3px solid #3c6d96;
-  border-right: 3px solid #3c6d96;
+  border-left: 0px solid #3c6d96;
+  border-right: 0px solid #3c6d96;
   box-shadow: inset 5px 0 10px 0 rgba(50, 50, 50, .1);
 }
 
@@ -407,6 +407,7 @@ body {
 
 #tip-container {
   padding: 10px;
+  padding-top: 30px !important;
   text-align: center;
   touch-action: none;
   cursor: default;

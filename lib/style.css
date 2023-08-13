@@ -58,13 +58,15 @@ body {
   border: 0;
   border-radius: 8px;
   outline: none;
+  padding: 5px;
+  background: #fff;
 }
 
 .toolbar button.active,
 .toolbar button:hover {
   opacity: 1;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-left: 3px solid #3c6d96;
+  border-right: 3px solid #3c6d96;
   box-shadow: inset 5px 0 10px 0 rgba(50, 50, 50, .1);
 }
 
@@ -203,7 +205,7 @@ body {
 #select-panel .text-section .style button,
 #select-panel .alignment-section button,
 #select-panel .object-options button {
-  padding: 0;
+  margin: 5px;
   width: 32px;
   height: 32px;
   background-color: #fff;
@@ -212,6 +214,16 @@ body {
   outline: none;
   border-radius: 5px;
 }
+
+#select-panel > div > div.alignment-section > button:nth-child(1),
+#select-panel > div > div.alignment-section > button:nth-child(2),
+#select-panel > div > div.alignment-section > button:nth-child(3),
+#select-panel > div > div.alignment-section > button:nth-child(4),
+#select-panel > div > div.alignment-section > button:nth-child(5),
+#select-panel > div > div.alignment-section > button:nth-child(6) {
+    padding: 5px;
+}
+
 
 #select-panel button svg {
   opacity: .7;
@@ -295,8 +307,8 @@ body {
 .toolpanel .input-container {
   display: flex;
   align-items: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .toolpanel .input-container label {

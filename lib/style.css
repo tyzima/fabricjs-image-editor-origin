@@ -3,6 +3,22 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#flip-h {
+  display: none;
+}
+
+#flip-v {
+  display: none;
+}
+
+#path {
+  display: none;
+}
+
+#line {
+  display: none;
+}
+
 .grp-handler-cp-c {
   margin-left: -20px;
 }

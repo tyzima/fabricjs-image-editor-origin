@@ -19,6 +19,19 @@ label[for="input-corner-type"],
     display: none;
 }
 
+/* Hide the label with content "Corner Type" */
+label:contains('Corner Type'),
+/* Hide the select with id "input-corner-type" */
+#input-corner-type,
+/* Hide the label with content "Style" (assuming it's similar to the provided structure) */
+label:contains('Style'),
+/* Hide the input with id "input-border-style" */
+#input-border-style {
+    display: none;
+}
+
+
+
 
 #bring-fwd {
   display: none;

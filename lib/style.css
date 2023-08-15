@@ -205,12 +205,12 @@ label:contains('Style'),
   position: absolute;
   top: calc(50% - 40px);
   right: -42px;
-  width: 40px;
+  width: 30px;
   height: 80px;
   background: #f9f9f9;
   border: 1px solid #ddd;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   cursor: pointer;
 
   background-image: url('/lib/caret-left.svg');

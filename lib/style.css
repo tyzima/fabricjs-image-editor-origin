@@ -171,6 +171,8 @@ label:contains('Style'),
   display: none;
   position: absolute;
   z-index: 9999;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .toolpanel.closed {

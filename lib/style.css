@@ -139,9 +139,9 @@ label:contains('Style'),
 }
 
 .canvas-container {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHUlEQVQ4jWNgYGAQIYAJglEDhoUBg9+FowbQ2gAARjwKARjtnN8AAAAASUVORK5CYII=");
+  background: linear-gradient(45deg, black 50%, white 50%);
   background-size: 30px 30px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   margin: auto;
 }
 

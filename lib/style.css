@@ -145,13 +145,15 @@ label:contains('Style'),
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eaeaea;
+  background: #ffffff;
 }
 
 .canvas-container {
   background: linear-gradient(45deg, black 50%, white 50%);
   background-size: 30px 30px;
   border: 2px solid #ccc;
+  box-shadow: 0px 0px 10px 0px #dfdfdf31;
+  border-radius: 15px
   margin: auto;
 }
 

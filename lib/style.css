@@ -1,17 +1,21 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
+  text-transform: uppercase;
 }
 
 #flip-h {
   display: none;
 }
 
+
+
+
 #bring-fwd {
   display: none;
 }
 
-.select-panel .text-section .style {
+#select-panel .text-section .style button {
   display: none !important;
 }
 
@@ -211,7 +215,7 @@ body {
   font-size: 13px;
 }
 
-#select-panel .text-section .style button,
+
 #select-panel .alignment-section button,
 #select-panel .object-options button {
   margin: 5px;

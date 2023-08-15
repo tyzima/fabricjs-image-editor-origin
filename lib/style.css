@@ -12,6 +12,13 @@ body {
     background-color: yellow !important;
 }
 
+label[for="input-border-style"],
+#input-border-style,
+label[for="input-corner-type"],
+#input-corner-type {
+    display: none;
+}
+
 
 #bring-fwd {
   display: none;
@@ -135,7 +142,7 @@ body {
   transition: all .4s;
   box-sizing: border-box;
   text-align: left;
-  font-size: 9px;
+  font-size: 11px;
   color: #777;
   display: none;
   position: absolute;
@@ -160,7 +167,7 @@ body {
 }
 
 .toolpanel .title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   margin: 0;
   padding-bottom: 10px;
@@ -214,7 +221,7 @@ body {
   border: 2px solid #e4e4e4;
   padding: 4px 10px;
   line-height: 18px;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 
@@ -361,7 +368,7 @@ body {
   border-radius: 6px;
   color: #333;
   border: 1px solid transparent;
-  font-size: 12px;
+  font-size: 11px;
   cursor: pointer;
   outline: none;
 }

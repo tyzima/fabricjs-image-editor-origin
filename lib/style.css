@@ -8,7 +8,9 @@ body {
   display: none;
 }
 
-
+.handler-drag {
+    background-color: yellow !important;
+}
 
 
 #bring-fwd {

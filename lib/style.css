@@ -162,7 +162,7 @@ label:contains('Style'),
   top: 0;
   left: 0;
   height: 100%;
-  border: 1px solid #ddd;
+  border: 2px solid #ededed;
   transition: all .4s;
   box-sizing: border-box;
   text-align: left;
@@ -173,6 +173,7 @@ label:contains('Style'),
   z-index: 9999;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #dfdfdf31;
 }
 
 .toolpanel.closed {

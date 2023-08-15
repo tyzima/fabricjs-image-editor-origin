@@ -30,6 +30,16 @@ label:contains('Style'),
     display: none;
 }
 
+.centered-text {
+    font-family: 'Poppins', Arial, sans-serif; /* Using Poppins as it's one of the Google Fonts you've linked */
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
 
